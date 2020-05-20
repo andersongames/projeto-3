@@ -8,12 +8,14 @@ header{
     background-image: url(../imagens/capa.png);
 
     .logo{
-        width: 160px;
-        height: 60px;
+        width: 230px;
+        height: 110px;
         background-size: cover;
         background-position: center;
-        background-image: url(../imagens/logo-purple.png);
+        background-image: url(../imagens/PurpleHeaderLogo.png);
         float: left;
+        position: absolute;
+        top: 0;
     }
 
     nav{
@@ -37,7 +39,7 @@ header{
     .chamada1{
         max-width: 600px;
         float: right;
-        margin:140px 350px;
+        margin:170px 350px;
 
         h2{
             font-size: 40px;
