@@ -29,6 +29,15 @@ header {
   background-image: url(../imagens/capa.png);
 }
 
+header .logo {
+  width: 160px;
+  height: 60px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../imagens/logo-purple.png);
+  float: left;
+}
+
 header nav {
   float: right;
 }
@@ -45,5 +54,24 @@ header nav li {
 header nav a {
   text-decoration: none;
   color: white;
+}
+
+header .chamada1 {
+  max-width: 600px;
+  float: right;
+  margin: 140px 350px;
+}
+
+header .chamada1 h2 {
+  font-size: 40px;
+  color: white;
+  font-weight: lighter;
+}
+
+header .chamada1 p {
+  font-size: 15px;
+  color: white;
+  font-weight: lighter;
+  margin-top: 10px;
 }
 /*# sourceMappingURL=main.css.map */

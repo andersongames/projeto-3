@@ -7,6 +7,15 @@ header{
     background-position: center;
     background-image: url(../imagens/capa.png);
 
+    .logo{
+        width: 160px;
+        height: 60px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(../imagens/logo-purple.png);
+        float: left;
+    }
+
     nav{
         float: right;
 
@@ -22,6 +31,25 @@ header{
         a{
             text-decoration: none;
             color: white;
+        }
+    }
+
+    .chamada1{
+        max-width: 600px;
+        float: right;
+        margin:140px 350px;
+
+        h2{
+            font-size: 40px;
+            color: white;
+            font-weight: lighter;
+        }
+
+        p{
+            font-size: 15px;
+            color: white;
+            font-weight: lighter;
+            margin-top: 10px;
         }
     }
 }
