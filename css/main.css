@@ -160,22 +160,21 @@ section.section_1 div.img-device {
     display: block;
   }
   header div.chamada1 {
-    max-width: 600px;
+    width: 100%;
+    max-width: none;
     float: none;
-    margin: 80px 0;
-    /*
-            h2{
-                font-size: 40px;
-                color: white;
-                font-weight: lighter;
-            }
-    
-            p{
-                font-size: 15px;
-                color: white;
-                font-weight: lighter;
-                margin-top: 10px;
-            }*/
+    margin: 100px 0;
+    padding: 0 10px;
+    display: inline-block;
+  }
+  header div.chamada1 h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  header div.chamada1 p {
+    font-size: 15px;
+    margin-top: 15px;
+    text-align: justify;
   }
   section.section_1 {
     padding: 40px 2%;
