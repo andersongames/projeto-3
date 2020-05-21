@@ -36,7 +36,11 @@ header{
         }
     }
 
-    .chamada1{
+    nav.mobile-nav{
+        display: none;
+    }
+
+    div.chamada1{
         max-width: 600px;
         float: right;
         margin:170px 350px;

@@ -58,19 +58,23 @@ header nav a {
   color: white;
 }
 
-header .chamada1 {
+header nav.mobile-nav {
+  display: none;
+}
+
+header div.chamada1 {
   max-width: 600px;
   float: right;
   margin: 170px 350px;
 }
 
-header .chamada1 h2 {
+header div.chamada1 h2 {
   font-size: 40px;
   color: white;
   font-weight: lighter;
 }
 
-header .chamada1 p {
+header div.chamada1 p {
   font-size: 15px;
   color: white;
   font-weight: lighter;
@@ -142,5 +146,63 @@ section.section_1 div.img-device {
   background-image: url(../imagens/device.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: auto;
+    min-height: 90vh;
+  }
+  header nav.desktop-nav {
+    display: none;
+  }
+  header nav.mobile-nav {
+    display: block;
+  }
+  header div.chamada1 {
+    max-width: 600px;
+    float: none;
+    margin: 80px 0;
+    /*
+            h2{
+                font-size: 40px;
+                color: white;
+                font-weight: lighter;
+            }
+    
+            p{
+                font-size: 15px;
+                color: white;
+                font-weight: lighter;
+                margin-top: 10px;
+            }*/
+  }
+  section.section_1 {
+    padding: 40px 2%;
+    height: auto;
+    text-align: center;
+  }
+  section.section_1 div.txt-device {
+    width: 100%;
+    margin-top: 0;
+    padding-left: 0;
+    position: static;
+    float: none;
+    display: inline-block;
+  }
+  section.section_1 div.txt-device ul {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  section.section_1 div.txt-device ul li {
+    float: none;
+    text-align: left;
+  }
+  section.section_1 div.button {
+    display: inline-block;
+  }
+  section.section_1 div.img-device {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */
