@@ -37,6 +37,10 @@ header{
         }
     }
     div.header{
+        div.mobile-logo{
+            display: none;
+        }
+        
         nav.mobile-nav{
             cursor: pointer;
             float: right;
