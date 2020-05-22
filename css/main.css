@@ -184,20 +184,30 @@ section.section_1 div.img-device {
 }
 
 section.section_2 {
-  padding: 80px 2%;
+  padding: 0 2%;
   background-color: white;
   text-align: center;
 }
 
-section.section_2 h2 {
+section.section_2 div.container {
+  max-width: 1000px;
+}
+
+section.section_2 div.container h2 {
   color: #472663;
   font-weight: lighter;
 }
 
-section.section_2 p {
+section.section_2 div.container p {
   margin-top: 30px;
-  max-width: 600px;
+  max-width: 900px;
   display: inline-block;
+  color: #472663;
+}
+
+section.section_2 div.container img {
+  width: 100%;
+  margin-top: 40px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -259,12 +269,14 @@ section.section_2 p {
   section.section_1 div.img-device {
     display: none;
   }
+  section.section_2 {
+    padding-top: 40px;
+  }
 }
 
 @media screen and (max-width: 640px) {
   header div.logo {
-    float: none;
-    position: inline-block;
+    display: none;
   }
   header nav.desktop-nav {
     display: none;

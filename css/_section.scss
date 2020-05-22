@@ -63,18 +63,28 @@ section.section_1 {
 }
 
 section.section_2{
-    padding: 80px 2%;
+    padding: 0 2%;
     background-color: white;
     text-align: center;
 
-    h2{
-        color: #472663;
-        font-weight: lighter;
-    }
+    div.container{
+        max-width: 1000px;
 
-    p{
-        margin-top: 30px;
-        max-width: 600px;
-        display: inline-block;
+        h2{
+            color: #472663;
+            font-weight: lighter;
+        }
+    
+        p{
+            margin-top: 30px;
+            max-width: 900px;
+            display: inline-block;
+            color: #472663;
+        }
+    
+        img{
+            width: 100%;
+            margin-top: 40px;
+        }
     }
 }
