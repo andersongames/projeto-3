@@ -4,10 +4,6 @@ section.section_1 {
     padding: 0 2%;
     height: 350px;
 
-    div.container{
-        max-width: 900px;
-    }
-
     div.txt-device{
         float: left;
         width: 47%;
@@ -63,5 +59,22 @@ section.section_1 {
         background-image: url(../imagens/device.png);
         background-repeat: no-repeat;
         background-size: 100% 100%;
+    }
+}
+
+section.section_2{
+    padding: 80px 2%;
+    background-color: white;
+    text-align: center;
+
+    h2{
+        color: #472663;
+        font-weight: lighter;
+    }
+
+    p{
+        margin-top: 30px;
+        max-width: 600px;
+        display: inline-block;
     }
 }
