@@ -18,7 +18,7 @@ header{
         top: 0;
     }
 
-    nav{
+    nav.desktop-nav{
         float: right;
 
         ul{
@@ -28,16 +28,54 @@ header{
         li{
             float: left;
             padding: 0 20px;
-        }
 
-        a{
-            text-decoration: none;
-            color: white;
+            a{
+                text-decoration: none;
+                color: white;
+            }
         }
     }
 
     nav.mobile-nav{
+        cursor: pointer;
+        float: right;
         display: none;
+        width: 32px;
+        height: 32px;
+        background-image: url(../imagens/open-menu.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        ul{
+            display: none;
+            background-color: #573375;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 80px;
+            text-align: center;
+            list-style-type: none;
+            
+
+            li{
+                padding: 8px 0;
+                transition: 0.5s;
+                border-bottom: 1px solid black;
+
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        &:hover ul{
+            display: block;
+        }
+
+        ul li:hover{
+            background-color: #46295e;
+        }
     }
 
     div.chamada1{

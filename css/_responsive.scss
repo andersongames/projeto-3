@@ -1,34 +1,40 @@
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1200px){
     header{
         height: auto;
         min-height: 90vh;
-
-        nav.desktop-nav{
-            display: none;
-        }
-    
-        nav.mobile-nav{
-            display: block;
-        }
-    
+        
         div.chamada1{
             width: 100%;
             max-width: none;
             float: none;
-            margin: 100px 0;
-            padding: 0 10px;
+            margin: 180px 0;
+            padding: 0 20%;
             display: inline-block;
+            
+            h2{
+                text-align: center;
+            }
+
+            p{
+                text-align: justify;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    header{
+        div.chamada1{
+            margin: 200px 0;
     
             h2{
-                font-size: 30px;
-                text-align: center;
+                font-size: 34px;
             }
     
             p{
                 font-size: 15px;
                 margin-top: 15px;
-                text-align: justify;
             }
         }
     }
@@ -48,7 +54,7 @@
 
             ul{
                 display: inline-block;
-                margin-top: 20px;
+                margin-top: 25px;
 
                 li{
                     float: none;
@@ -63,6 +69,32 @@
 
         div.img-device{
             display: none;
+        }
+    }
+}
+
+
+@media screen and (max-width: 640px){
+    header{
+        div.logo{
+            float: none;
+            position: inline-block;
+        }
+
+        nav.desktop-nav{
+            display: none;
+        }
+    
+        nav.mobile-nav{
+            display: block;
+        }
+
+        div.chamada1{
+            padding: 0 10%;
+    
+            h2{
+                font-size: 32px;
+            }
         }
     }
 }

@@ -30,7 +30,8 @@ section.section_1 {
 
         ul{
             font-size: 15px;
-            list-style-position: inside;
+            list-style-position: outside;
+            padding-left: 15px;
 
             li{
                 float: left;

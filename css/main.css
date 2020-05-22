@@ -40,26 +40,64 @@ header .logo {
   top: 0;
 }
 
-header nav {
+header nav.desktop-nav {
   float: right;
 }
 
-header nav ul {
+header nav.desktop-nav ul {
   list-style-type: none;
 }
 
-header nav li {
+header nav.desktop-nav li {
   float: left;
   padding: 0 20px;
 }
 
-header nav a {
+header nav.desktop-nav li a {
   text-decoration: none;
   color: white;
 }
 
 header nav.mobile-nav {
+  cursor: pointer;
+  float: right;
   display: none;
+  width: 32px;
+  height: 32px;
+  background-image: url(../imagens/open-menu.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header nav.mobile-nav ul {
+  display: none;
+  background-color: #573375;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 80px;
+  text-align: center;
+  list-style-type: none;
+}
+
+header nav.mobile-nav ul li {
+  padding: 8px 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-bottom: 1px solid black;
+}
+
+header nav.mobile-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav.mobile-nav:hover ul {
+  display: block;
+}
+
+header nav.mobile-nav ul li:hover {
+  background-color: #46295e;
 }
 
 header div.chamada1 {
@@ -115,7 +153,8 @@ section.section_1 div.txt-device p {
 
 section.section_1 div.txt-device ul {
   font-size: 15px;
-  list-style-position: inside;
+  list-style-position: outside;
+  padding-left: 15px;
 }
 
 section.section_1 div.txt-device ul li {
@@ -148,33 +187,37 @@ section.section_1 div.img-device {
   background-size: 100% 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   header {
     height: auto;
     min-height: 90vh;
-  }
-  header nav.desktop-nav {
-    display: none;
-  }
-  header nav.mobile-nav {
-    display: block;
   }
   header div.chamada1 {
     width: 100%;
     max-width: none;
     float: none;
-    margin: 100px 0;
-    padding: 0 10px;
+    margin: 180px 0;
+    padding: 0 20%;
     display: inline-block;
   }
   header div.chamada1 h2 {
-    font-size: 30px;
     text-align: center;
+  }
+  header div.chamada1 p {
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header div.chamada1 {
+    margin: 200px 0;
+  }
+  header div.chamada1 h2 {
+    font-size: 34px;
   }
   header div.chamada1 p {
     font-size: 15px;
     margin-top: 15px;
-    text-align: justify;
   }
   section.section_1 {
     padding: 40px 2%;
@@ -191,7 +234,7 @@ section.section_1 div.img-device {
   }
   section.section_1 div.txt-device ul {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 25px;
   }
   section.section_1 div.txt-device ul li {
     float: none;
@@ -202,6 +245,25 @@ section.section_1 div.img-device {
   }
   section.section_1 div.img-device {
     display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  header div.logo {
+    float: none;
+    position: inline-block;
+  }
+  header nav.desktop-nav {
+    display: none;
+  }
+  header nav.mobile-nav {
+    display: block;
+  }
+  header div.chamada1 {
+    padding: 0 10%;
+  }
+  header div.chamada1 h2 {
+    font-size: 32px;
   }
 }
 /*# sourceMappingURL=main.css.map */
