@@ -272,7 +272,6 @@ section.section_3 div.part_2 div.abaut-author div.title-author {
 }
 
 section.section_3 div.part_2 div.abaut-author div.title-author div.wraper-title-author {
-  width: calc(100%-40px);
   float: left;
 }
 
@@ -288,6 +287,12 @@ section.section_3 div.part_2 div.abaut-author div.title-author div.img-author {
   top: -4px;
   border-radius: 20px;
   background-color: #573375;
+}
+
+section.section_3 div.part_2 div.abaut-author div.text-author {
+  float: left;
+  width: 100%;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 1200px) {

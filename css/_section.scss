@@ -141,7 +141,6 @@ section.section_3{
                 width: 100%;
 
                 div.wraper-title-author{
-                    width: calc(100%-40px);
                     float: left;
 
                     h2{
@@ -165,7 +164,9 @@ section.section_3{
             }
 
             div.text-author{
-
+                float: left;
+                width: 100%;
+                margin-top: 10px;
             }
         }
     }
