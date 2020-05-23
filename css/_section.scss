@@ -109,7 +109,7 @@ section.section_3{
         div.wraper-part_1{
             max-width: 600px;
             float: right;
-            padding-right: 20px;
+            padding-right: 30px;
             padding-left: 4%;
 
         h2{
@@ -134,7 +134,7 @@ section.section_3{
         div.abaut-author{
             float: left;
             max-width: 600px;
-            padding-left: 20px;
+            padding-left: 30px;
 
             div.title-author{
                 float: left;
@@ -147,14 +147,14 @@ section.section_3{
                         padding-right: 20px;
                         color: #232323;
                         font-weight: normal;
-                        font-size: 25px;
+                        font-size: 21px;
                     }
 
                     p{
-                        font-size: 15px;
+                        font-size: 14px;
                         font-style: italic;
                         color: #232323;
-                        font-weight: normal;
+                        font-weight: lighter;
                     }
                 }
 
@@ -173,6 +173,29 @@ section.section_3{
                 float: left;
                 width: 100%;
                 margin-top: 10px;
+                padding-right: 4%;
+
+                p{
+                    color: #232323;
+                    font-size: 15px;
+                }
+            }
+        }
+
+        div.slider-bullets{
+            width: 100%;
+            float: left;
+            margin-top: 12px;
+            padding-left: 30px;
+
+            span{
+                width: 16px;
+                height: 16px;
+                float: left;
+                border-radius: 8px;
+                margin-right: 8px;
+                background-color: rgb(200, 200, 200);
+                cursor: pointer;
             }
         }
     }

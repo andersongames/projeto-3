@@ -238,7 +238,7 @@ section.section_3 div.part_1 {
 section.section_3 div.part_1 div.wraper-part_1 {
   max-width: 600px;
   float: right;
-  padding-right: 20px;
+  padding-right: 30px;
   padding-left: 4%;
 }
 
@@ -263,7 +263,7 @@ section.section_3 div.part_2 {
 section.section_3 div.part_2 div.abaut-author {
   float: left;
   max-width: 600px;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 section.section_3 div.part_2 div.abaut-author div.title-author {
@@ -279,14 +279,14 @@ section.section_3 div.part_2 div.abaut-author div.title-author div.wraper-title-
   padding-right: 20px;
   color: #232323;
   font-weight: normal;
-  font-size: 25px;
+  font-size: 21px;
 }
 
 section.section_3 div.part_2 div.abaut-author div.title-author div.wraper-title-author p {
-  font-size: 15px;
+  font-size: 14px;
   font-style: italic;
   color: #232323;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 section.section_3 div.part_2 div.abaut-author div.title-author div.img-author {
@@ -303,6 +303,29 @@ section.section_3 div.part_2 div.abaut-author div.text-author {
   float: left;
   width: 100%;
   margin-top: 10px;
+  padding-right: 4%;
+}
+
+section.section_3 div.part_2 div.abaut-author div.text-author p {
+  color: #232323;
+  font-size: 15px;
+}
+
+section.section_3 div.part_2 div.slider-bullets {
+  width: 100%;
+  float: left;
+  margin-top: 12px;
+  padding-left: 30px;
+}
+
+section.section_3 div.part_2 div.slider-bullets span {
+  width: 16px;
+  height: 16px;
+  float: left;
+  border-radius: 8px;
+  margin-right: 8px;
+  background-color: #c8c8c8;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1200px) {
