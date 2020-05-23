@@ -4,61 +4,66 @@ section.section_1 {
     padding: 0 2%;
     height: 350px;
 
-    div.txt-device{
-        float: left;
-        width: 47%;
-        position: relative;
-        left: 55px;
-        margin-top: 25px;
-        padding-left: 80px;
-        color: white;
+    div.container{
+        max-width: 1000px;
+        height: calc(100% + 50px);
 
-        h2{
-            font-size: 26px;
-            font-weight: lighter;
-        }
+        div.txt-device{
+            float: left;
+            width: 47%;
+            position: relative;
+            left: 55px;
+            margin-top: 25px;
+            padding-left: 80px;
+            color: white;
 
-        p{
-            font-size: 15px;
-            font-weight: normal;
-            margin-top: 20px;
-        }
+            h2{
+                font-size: 26px;
+                font-weight: lighter;
+            }
 
-        ul{
-            font-size: 15px;
-            list-style-position: outside;
-            padding-left: 15px;
+            p{
+                font-size: 15px;
+                font-weight: normal;
+                margin-top: 20px;
+            }
 
-            li{
-                float: left;
-                width: 100%;
-                margin-top: 8px;
+            ul{
+                font-size: 15px;
+                list-style-position: outside;
+                padding-left: 15px;
+
+                li{
+                    float: left;
+                    width: 100%;
+                    margin-top: 8px;
+                }
+            }
+
+            div.button{
+                background-color: #FF703D;
+                width: 165px;
+                height: 44px;
+                font-size: 13px;
+                color: white;
+                cursor: pointer;
+                margin-top: 42px;
+                text-align: center;
+                line-height: 44px;
+                border-radius: 30px;
             }
         }
 
-        div.button{
-            background-color: #FF703D;
-            width: 165px;
-            height: 44px;
-            font-size: 13px;
-            color: white;
-            cursor: pointer;
-            margin-top: 42px;
-            text-align: center;
-            line-height: 44px;
-            border-radius: 30px;
+        div.img-device{
+            float: left;
+            width: 53%;
+            position: relative;
+            top: -50px;
+            height: 100%;
+            background-image: url(../imagens/device.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
         }
-    }
-
-    div.img-device{
-        float: left;
-        width: 53%;
-        position: relative;
-        top: -50px;
-        height: 400px;
-        background-image: url(../imagens/device.png);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
     }
 }
 
@@ -83,8 +88,48 @@ section.section_2{
         }
     
         img{
+            position: relative;
+            top: 70px;
             width: 100%;
-            margin-top: 40px;
+            margin-top: 20px;
         }
+    }
+}
+
+section.section_3{
+    width: 100%;
+
+    div.part_1{
+        float: left;
+        width: 50%;
+        padding: 140px 0 90px 0;
+        background-color: #835FA7;
+        color: white;
+
+        div.wraper-part_1{
+            max-width: 600px;
+            float: right;
+            padding-right: 20px;
+            padding-left: 4%;
+
+        h2{
+            font-weight: lighter;
+            font-style: italic;
+            font-size: 23px;
+            }
+
+        p{
+            font-size: 15px;
+            line-height: 35px;
+            margin-top: 10px;
+            }
+        }
+    }
+
+    div.part_2{
+        float: left;
+        width: 50%;
+        padding: 140px 0 90px 0;
+        
     }
 }

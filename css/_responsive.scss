@@ -44,31 +44,34 @@
         height: auto;
         text-align: center;
 
-        div.txt-device{
-            width: 100%;
-            margin-top: 0;
-            padding-left: 0;
-            position: static;
-            float: none;
-            display: inline-block;
+        div.container{
 
-            ul{
+            div.txt-device{
+                width: 100%;
+                margin-top: 0;
+                padding-left: 0;
+                position: static;
+                float: none;
                 display: inline-block;
-                margin-top: 25px;
 
-                li{
-                    float: none;
-                    text-align: left;
+                ul{
+                    display: inline-block;
+                    margin-top: 25px;
+
+                    li{
+                        float: none;
+                        text-align: left;
+                    }
                 }
             }
-        }
 
-        div.button{
-            display: inline-block;
-        }
+            div.button{
+                display: inline-block;
+            }
 
-        div.img-device{
-            display: none;
+            div.img-device{
+                display: none;
+            }
         }
     }
 

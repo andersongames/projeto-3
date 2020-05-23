@@ -132,7 +132,12 @@ section.section_1 {
   height: 350px;
 }
 
-section.section_1 div.txt-device {
+section.section_1 div.container {
+  max-width: 1000px;
+  height: calc(100% + 50px);
+}
+
+section.section_1 div.container div.txt-device {
   float: left;
   width: 47%;
   position: relative;
@@ -142,30 +147,30 @@ section.section_1 div.txt-device {
   color: white;
 }
 
-section.section_1 div.txt-device h2 {
+section.section_1 div.container div.txt-device h2 {
   font-size: 26px;
   font-weight: lighter;
 }
 
-section.section_1 div.txt-device p {
+section.section_1 div.container div.txt-device p {
   font-size: 15px;
   font-weight: normal;
   margin-top: 20px;
 }
 
-section.section_1 div.txt-device ul {
+section.section_1 div.container div.txt-device ul {
   font-size: 15px;
   list-style-position: outside;
   padding-left: 15px;
 }
 
-section.section_1 div.txt-device ul li {
+section.section_1 div.container div.txt-device ul li {
   float: left;
   width: 100%;
   margin-top: 8px;
 }
 
-section.section_1 div.txt-device div.button {
+section.section_1 div.container div.txt-device div.button {
   background-color: #FF703D;
   width: 165px;
   height: 44px;
@@ -178,12 +183,12 @@ section.section_1 div.txt-device div.button {
   border-radius: 30px;
 }
 
-section.section_1 div.img-device {
+section.section_1 div.container div.img-device {
   float: left;
   width: 53%;
   position: relative;
   top: -50px;
-  height: 400px;
+  height: 100%;
   background-image: url(../imagens/device.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -212,8 +217,47 @@ section.section_2 div.container p {
 }
 
 section.section_2 div.container img {
+  position: relative;
+  top: 70px;
   width: 100%;
-  margin-top: 40px;
+  margin-top: 20px;
+}
+
+section.section_3 {
+  width: 100%;
+}
+
+section.section_3 div.part_1 {
+  float: left;
+  width: 50%;
+  padding: 140px 0 90px 0;
+  background-color: #835FA7;
+  color: white;
+}
+
+section.section_3 div.part_1 div.wraper-part_1 {
+  max-width: 600px;
+  float: right;
+  padding-right: 20px;
+  padding-left: 4%;
+}
+
+section.section_3 div.part_1 div.wraper-part_1 h2 {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 23px;
+}
+
+section.section_3 div.part_1 div.wraper-part_1 p {
+  font-size: 15px;
+  line-height: 35px;
+  margin-top: 10px;
+}
+
+section.section_3 div.part_2 {
+  float: left;
+  width: 50%;
+  padding: 140px 0 90px 0;
 }
 
 @media screen and (max-width: 1200px) {
@@ -253,7 +297,7 @@ section.section_2 div.container img {
     height: auto;
     text-align: center;
   }
-  section.section_1 div.txt-device {
+  section.section_1 div.container div.txt-device {
     width: 100%;
     margin-top: 0;
     padding-left: 0;
@@ -261,18 +305,18 @@ section.section_2 div.container img {
     float: none;
     display: inline-block;
   }
-  section.section_1 div.txt-device ul {
+  section.section_1 div.container div.txt-device ul {
     display: inline-block;
     margin-top: 25px;
   }
-  section.section_1 div.txt-device ul li {
+  section.section_1 div.container div.txt-device ul li {
     float: none;
     text-align: left;
   }
-  section.section_1 div.button {
+  section.section_1 div.container div.button {
     display: inline-block;
   }
-  section.section_1 div.img-device {
+  section.section_1 div.container div.img-device {
     display: none;
   }
   section.section_2 {
