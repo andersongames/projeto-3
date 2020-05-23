@@ -277,6 +277,15 @@ section.section_3 div.part_2 div.abaut-author div.title-author div.wraper-title-
 
 section.section_3 div.part_2 div.abaut-author div.title-author div.wraper-title-author h2 {
   padding-right: 20px;
+  color: #232323;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+section.section_3 div.part_2 div.abaut-author div.title-author div.wraper-title-author p {
+  font-size: 15px;
+  font-style: italic;
+  color: #232323;
 }
 
 section.section_3 div.part_2 div.abaut-author div.title-author div.img-author {
