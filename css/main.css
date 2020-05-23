@@ -260,6 +260,36 @@ section.section_3 div.part_2 {
   padding: 140px 0 90px 0;
 }
 
+section.section_3 div.part_2 div.abaut-author {
+  float: left;
+  max-width: 600px;
+  padding-left: 20px;
+}
+
+section.section_3 div.part_2 div.abaut-author div.title-author {
+  float: left;
+  width: 100%;
+}
+
+section.section_3 div.part_2 div.abaut-author div.title-author div.wraper-title-author {
+  width: calc(100%-40px);
+  float: left;
+}
+
+section.section_3 div.part_2 div.abaut-author div.title-author div.wraper-title-author h2 {
+  padding-right: 20px;
+}
+
+section.section_3 div.part_2 div.abaut-author div.title-author div.img-author {
+  float: left;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: -4px;
+  border-radius: 20px;
+  background-color: #573375;
+}
+
 @media screen and (max-width: 1200px) {
   header {
     height: auto;

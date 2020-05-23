@@ -130,6 +130,43 @@ section.section_3{
         float: left;
         width: 50%;
         padding: 140px 0 90px 0;
-        
+
+        div.abaut-author{
+            float: left;
+            max-width: 600px;
+            padding-left: 20px;
+
+            div.title-author{
+                float: left;
+                width: 100%;
+
+                div.wraper-title-author{
+                    width: calc(100%-40px);
+                    float: left;
+
+                    h2{
+                        padding-right: 20px;
+                    }
+
+                    p{
+
+                    }
+                }
+
+                div.img-author{
+                    float: left;
+                    width: 40px;
+                    height: 40px;
+                    position: relative;
+                    top: -4px;
+                    border-radius: 20px;
+                    background-color: #573375;
+                }
+            }
+
+            div.text-author{
+
+            }
+        }
     }
 }
