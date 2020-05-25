@@ -78,6 +78,40 @@
     section.section_2{
         padding-top: 40px;
     }
+
+    section.section_4{
+        div.container{
+            text-align: center;
+        }
+
+        div.form{
+            float: none;
+            width: 100%;
+
+            p{
+                display: inline-block;
+                text-align: justify;
+            }
+        }
+
+        div.map-wraper{
+            float: none;
+            width: 100%;
+            margin-top: 40px;
+
+            div.sub-wraper_1{
+                display: inline-block;
+                width: 80%;
+                padding-top: 80%;
+                max-width: none;
+                
+                div.sub-wraper_2{
+                    height: 100%;
+                    padding-top: 0;
+                }
+            }
+        }
+    }
 }
 
 

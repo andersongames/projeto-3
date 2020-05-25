@@ -258,7 +258,6 @@ section.section_4{
         div.map-wraper{
             float: left;
             width: 50%;
-            padding: 0 2%;
 
             h2{
                 font-size: 23px;
@@ -267,9 +266,11 @@ section.section_4{
             }
 
             div.sub-wraper_1{
+                margin-top: 10px;
                 width: 100%;
                 max-width: 480px;
                 position: relative;
+                
 
                 div.sub-wraper_2{
                     position: absolute;
