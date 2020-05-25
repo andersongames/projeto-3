@@ -338,6 +338,7 @@ section.section_4 div.form {
   width: 50%;
   color: white;
   margin-top: 15px;
+  padding: 0 2%;
 }
 
 section.section_4 div.form h2 {
@@ -380,6 +381,42 @@ section.section_4 div.form input[type=submit] {
   margin-top: 15px;
   border-radius: 30px;
   border: 0;
+}
+
+section.section_4 div.map-wraper {
+  float: left;
+  width: 50%;
+  padding: 0 2%;
+}
+
+section.section_4 div.map-wraper h2 {
+  font-size: 23px;
+  font-weight: lighter;
+  color: white;
+}
+
+section.section_4 div.map-wraper div.sub-wraper_1 {
+  width: 100%;
+  max-width: 480px;
+  position: relative;
+}
+
+section.section_4 div.map-wraper div.sub-wraper_1 div.sub-wraper_2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 100%;
+}
+
+section.section_4 div.map-wraper div.sub-wraper_1 div.sub-wraper_2 div.map {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  border: 5px solid #c8c8c8;
 }
 
 @media screen and (max-width: 1200px) {
