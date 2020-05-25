@@ -328,6 +328,60 @@ section.section_3 div.part_2 div.slider-bullets span {
   cursor: pointer;
 }
 
+section.section_4 {
+  background-color: #472563;
+  padding: 100px 0;
+}
+
+section.section_4 div.form {
+  float: left;
+  width: 50%;
+  color: white;
+  margin-top: 15px;
+}
+
+section.section_4 div.form h2 {
+  font-size: 23px;
+  font-weight: lighter;
+}
+
+section.section_4 div.form p {
+  font-size: 15px;
+  font-weight: lighter;
+  max-width: 400px;
+}
+
+section.section_4 div.form input[type=text] {
+  width: 100%;
+  max-width: 480px;
+  height: 58px;
+  padding-left: 8px;
+  line-height: 58px;
+  border: 1px solid #c8c8c8;
+  margin-top: 5px;
+}
+
+section.section_4 div.form textarea {
+  width: 100%;
+  max-width: 480px;
+  height: 160px;
+  padding: 15px;
+  border: 1px solid #c8c8c8;
+  margin-top: 8px;
+}
+
+section.section_4 div.form input[type=submit] {
+  background-color: #FF703D;
+  width: 165px;
+  height: 44px;
+  font-size: 13px;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 30px;
+  border: 0;
+}
+
 @media screen and (max-width: 1200px) {
   header {
     height: auto;
