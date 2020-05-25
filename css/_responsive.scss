@@ -101,7 +101,7 @@
 
             div.mobile-logo{
                 display: inline-block;
-                margin: 7px 0px 0px 90px;
+                margin: 7px 0px 0px 40px;
 
                 p{
                 font-family: 'Balsamiq Sans', cursive;
@@ -122,6 +122,27 @@
             h2{
                 font-size: 32px;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 580px){
+    section.section_2{
+        div.container{
+            img{
+                top: 18px;
+            }
+        }
+    }
+    section.section_3{
+        div.part_1{
+            width: 100%;
+            padding: 40px 0;
+        }
+
+        div.part_2{
+            width: 100%;
+            padding: 40px 0;
         }
     }
 }
