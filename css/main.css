@@ -386,6 +386,7 @@ section.section_4 div.form input[type=submit] {
 section.section_4 div.map-wraper {
   float: left;
   width: 50%;
+  padding: 0 2%;
 }
 
 section.section_4 div.map-wraper h2 {
@@ -496,6 +497,7 @@ section.section_4 div.map-wraper div.sub-wraper_1 div.sub-wraper_2 div.map {
     float: none;
     width: 100%;
     margin-top: 40px;
+    padding: 0 2%;
   }
   section.section_4 div.map-wraper div.sub-wraper_1 {
     display: inline-block;
